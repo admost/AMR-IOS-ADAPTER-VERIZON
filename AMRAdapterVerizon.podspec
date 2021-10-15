@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterVerizon'
-  s.version          = '1.14.0.0'
+  s.version          = '1.14.0.1'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -18,6 +18,6 @@ Pod::Spec.new do |s|
   s.platform 			= :ios
   s.ios.deployment_target = '10.0'
   s.vendored_libraries = 'AMRAdapterVerizon/Libs/libAMRAdapterVerizon.a'
-  s.dependency 'AMRSDK', '~> 1.4.81'
+  s.dependency 'AMRSDK', '~> 1.4.84'
   s.dependency 'Verizon-Ads-StandardEdition', '1.14.0'
 end
