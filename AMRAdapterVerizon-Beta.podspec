@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'AMRAdapterVerizon'
+  s.name             = 'AMRAdapterVerizon-Beta'
   s.version          = '1.14.0.3'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
-  s.dependency 'AMRSDK', '~> 1.5.6'
+  s.dependency 'AMRSDK-Beta', '~> 1.5.6'
   s.dependency 'Verizon-Ads-StandardEdition', '1.14.0'
 end
