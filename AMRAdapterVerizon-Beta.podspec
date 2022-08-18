@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMRAdapterVerizon-Beta'
-  s.version          = '1.14.0.3'
+  s.version          = '1.14.2.0'
   s.license          = { :type => 'Copyright', :text => <<-LICENSE
 														Copyright 2016
 														Admost Mediation Limited. 
@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
-  s.dependency 'AMRSDK-Beta', '~> 1.5.6'
-  s.dependency 'Verizon-Ads-StandardEdition', '1.14.0'
+  s.dependency 'AMRSDK-Beta', '~> 1.5.15'
+  s.dependency 'Verizon-Ads-StandardEdition', '1.14.2'
 end
