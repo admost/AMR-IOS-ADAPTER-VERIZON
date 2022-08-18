@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
     'VALID_ARCHS[sdk=iphoneos*]' => 'armv7 arm64',
     'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64 arm64'
   }
-  s.dependency 'AMRSDK', '~> 1.5.6'
+  s.dependency 'AMRSDK', '~> 1.5.15'
   s.dependency 'Verizon-Ads-StandardEdition', '1.14.2'
 end
